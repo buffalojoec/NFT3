@@ -6,7 +6,8 @@ Currently on NFT marketplaces like OpenSea, NFTs exist on specific chains. Most 
 
 NFT3 is a dApp that can operate as a standalone API or integrate into your NFT marketplace to allow your users to buy NFTs on any chain and buy/sell them cross-chain with ease.   
 
+___
 
-```shell
-docker-compose up
-```
+Below is a diagram of what this framework does. A technical breakdown of it's components can be found [here](doc/technical.md) & details about monetization can be found [here](doc/monetization.md).
+
+![](doc/diagrams/nft3-walkthrough.jpg)
