@@ -2,17 +2,17 @@ version: '2.3'
 
 services:
 
-  nft3-frontend:
-    build: ./src/frontend/.
-    ports:
-      - 6060:6060
-    depends_on:
-      - nft3-api
+  # nft3-frontend:
+  #   build: ./src/frontend/.
+  #   ports:
+  #     - 4200:4200
+  #   depends_on:
+  #     - nft3-api
 
   nft3-api:
     build: ./src/api/.
     ports:
-      - 6060:6060
+      - 8080:8080
     environment:
       DATABASE_URL: postgres://postgres:pass@postgres-docker/nft3_api
     depends_on:

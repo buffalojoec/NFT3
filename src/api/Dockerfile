@@ -6,6 +6,6 @@ COPY . .
 
 RUN npm install
 
-EXPOSE 6060
+EXPOSE 8080
 
-CMD [ "node", "server.js" ]
+ENTRYPOINT npm run dev
